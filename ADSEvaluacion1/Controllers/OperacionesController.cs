@@ -12,11 +12,7 @@ namespace ADSEvaluacion1.Controllers
         // GET: Operaciones/Operaciones
         public ActionResult Operaciones()
         {
-            Operaciones op = new Operaciones() { op1 =11, op2 = 3, suma = 0};
-            op.suma = op.op1 + op.op2;
-            op.resta = op.op1 - op.op2;
-            op.mult = op.op1 * op.op2;
-            op.div = op.op1 / op.op2;
+            Operaciones op = new Operaciones() { op1 =11, op2 = 3};
             return View(op);
         }
 
