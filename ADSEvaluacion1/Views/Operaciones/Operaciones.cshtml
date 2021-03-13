@@ -1,0 +1,18 @@
+﻿@model ADSEvaluacion1.Models.Operaciones
+@{
+    ViewBag.Title = "Operaciones";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<a href="~/Views/Operaciones/Suma.cshtml">Suma</a><br />
+<a>Resta</a><br />
+<a>Multiplicacion</a><br />
+<a>Division</a><br />
+La suma es: @Model.suma<br />
+La resta es: @Model.resta<br />
+La multiplicacion es: @Model.mult<br />
+La division es: @Model.div
+
+
